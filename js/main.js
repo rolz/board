@@ -7,7 +7,7 @@ var HeatBoardNotes = React.createClass({
             return (
                 <li>
                     <a>
-                        <p>{noteText}</p>
+                        <p>{noteText.note}</p>
                     </a>
                 </li>
             );
